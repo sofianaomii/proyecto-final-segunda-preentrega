@@ -1,0 +1,7 @@
+@mixin tienda{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: .625rem;
+    margin-left: 50px;
+}

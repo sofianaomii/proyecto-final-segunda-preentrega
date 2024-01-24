@@ -1,0 +1,295 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: main;
+    height: max-content;
+    overflow: hidden;
+}
+
+.maquillaje {
+    display: inline-block;
+    background-image: url(/assets/maquillaje2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    display: inline-block;
+    background-color: $importants;
+    text-align: left;
+    font-size: 35px;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 34px;
+    text-align: center;
+    margin: 35px 35px;
+}
+
+/*section*/
+
+.contenedorCards {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    padding: top;
+    text-align: center;
+    margin: 5px, 10px;
+    align-items: center;
+    height: max-content;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+
+.One {
+    display: flex;
+    height: auto;
+    width: 250px;
+    gap: 3.75rem;
+    margin: 5px;
+}
+
+h3 {
+    display: inline-block;
+    background-color: $importants;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 50px;
+    gap: 15px;
+}
+
+main h3 {
+    margin: 20px 0px;
+    display: block;
+    text-align: start;
+}
+
+.button {
+    display: inline-block;
+    background-color: $importants;
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 12px 28px;
+}
+
+//tienda
+
+.mascaras {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: .625rem;
+    margin-left: 50px;
+}
+
+
+.mas {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+    height: max-content;
+    border: $detalles solid 4px;
+
+}
+
+.correctores {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: .625rem;
+    margin-left: 50px;
+}
+
+.correc {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+    height: max-content;
+    border:$detalles solid 4px;
+}
+
+.Labiales {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: .625rem;
+    margin-left: 50px;
+}
+
+.labial {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+    height: max-content;
+    border:$detalles solid 4px;
+
+}
+
+.labialimg {
+    width: auto;
+    height: 280px;
+}
+
+//cursos
+
+.conteiner {
+    background-color: $importants;
+    border: none;
+    max-width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardss {
+    background-color: $importants ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contenedorMaquillaje {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.contenedorMaquillaje1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: $importants;
+}
+
+.texto p {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+}
+
+.imagen {
+    width: 80%;
+    height: 30rem;
+    background-image: url(../assets/curso-de-automaquillaje.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagen2 {
+    width: 80%;
+    height: 30rem;
+    background-image: url(../assets/maquillajesocial.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.conteiner p {
+    display: inline-block;
+    align-content: center;
+    font-size: 29px;
+    text-align: right;
+    background-position: right;
+    flex-wrap: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    padding: 2px;
+}
+
+.auto {
+    display: flex;
+    background-image: url(/assets/curso-de-automaquillaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 30px 50px;
+}
+
+.social {
+    display: flex;
+    background-image: url(/assets/maquillajesocial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 30px 50px;
+}
+
+
+//nosotros
+
+.contenedorNosotros {
+    background-color:$importants;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    border: none;
+    padding: 5px;
+    margin: 30px 4px;
+    border-radius: 12px;
+
+    p {
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+        flex-wrap: nowrap;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        padding: 2px;
+    }
+}
+
+.maps {
+    display: inline-block;
+    padding: 50px;
+    align-content: center;
+    margin: 30px 4px;
+}
+
+//contacto
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    margin: 100px 100px;
+    padding: 40px;
+}
+
+input {
+    display: inline-block;
+    text-align: center;
+    border: 2px $color-principal;
+    border-radius: .625rem;
+    background-color:$importants;
+    color: $color-principal;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+}

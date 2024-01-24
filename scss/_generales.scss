@@ -1,0 +1,7 @@
+body {
+    display: grid;
+    background-color:$fondo;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}

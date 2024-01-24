@@ -1,0 +1,22 @@
+footer {
+    border-top: $detalles 4px solid;
+    background-color: $importants;
+    width: 100%;
+    grid-area: footer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 8px 0 5px;
+}
+
+footer div p {
+    display: block;
+    font-size: 20px;
+}
+
+.footer div {
+    margin: 10px;
+    display: flex;
+}
