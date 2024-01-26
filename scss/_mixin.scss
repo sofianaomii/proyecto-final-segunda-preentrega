@@ -1,7 +1,16 @@
-@mixin tienda{
-    display: flex;
+@mixin tienda {
+    display: flex ;
     flex-direction: column;
     margin-bottom: 40px;
-    gap: .625rem;
+    gap: 10px;
     margin-left: 50px;
+}
+@include cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 1.25rem;
+    height: max-content;
+    border: $detalles solid 4px;
 }

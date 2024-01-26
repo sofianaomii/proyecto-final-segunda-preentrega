@@ -83,60 +83,29 @@ main h3 {
 //tienda
 
 .mascaras {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    gap: .625rem;
-    margin-left: 50px;
+    @include tienda;
 }
 
 
 .mas {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    gap: 20px;
-    height: max-content;
-    border: $detalles solid 4px;
+    @include cards;
 
 }
 
 .correctores {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    gap: .625rem;
-    margin-left: 50px;
+    @include tienda;
 }
 
 .correc {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    gap: 20px;
-    height: max-content;
-    border:$detalles solid 4px;
+    @include cards;
 }
 
 .Labiales {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    gap: .625rem;
-    margin-left: 50px;
+    @include tienda;
 }
 
 .labial {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    gap: 20px;
-    height: max-content;
-    border:$detalles solid 4px;
-
+    @include cards;
 }
 
 .labialimg {
@@ -237,7 +206,7 @@ main h3 {
 //nosotros
 
 .contenedorNosotros {
-    background-color:$importants;
+    background-color: $importants;
     display: flex;
     width: 100%;
     height: 250px;
@@ -285,7 +254,7 @@ input {
     text-align: center;
     border: 2px $color-principal;
     border-radius: .625rem;
-    background-color:$importants;
+    background-color: $importants;
     color: $color-principal;
     padding: 16px 32px;
     text-decoration: none;

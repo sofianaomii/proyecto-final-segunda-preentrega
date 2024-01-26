@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Somos la pagina n°1 de maquillajes importados de alta gama en Argentina">
+    <meta name="description"
+        content="Bienvenidos a nuestra página web de maquillajes importados, el destino perfecto para los amantes del maquillaje que buscan productos exclusivos y de alta calidad. En nuestro sitio, encontrará una amplia selección de marcas internacionales reconocidas,lo mejor en cosméticos importados.">
     <title>Makeup by Nao</title>
+    <link rel="shortcut icon" href="assets/logoNao2.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="logo"></div>
+        <div class="logo"><img src="assets/logoNao2.png" alt="logo"></div>
         <h1>Makeup by Nao</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -49,23 +52,23 @@
             <img src="./assets/maquillaje2.jpg" class="card-img maquillaje" alt="maquillaje">
         </div>
 
-        <h2>Algunos de nuestros productos</h2>
+        <h2 data-aos="zoom-in-down">Algunos de nuestros productos</h2>
 
 
         <section class="contenedorCards">
             <div class="card One">
-                <img src="assets/corrector.jpg" class=" oneImg card-img-top" alt="Mascara Fenty">
+                <img src="assets/corrector.jpg" class=" oneImg card-img-top" alt="Corrector Fenty">
                 <div class="card-body">
-                    <h5 class="card-title">Corrector Fenty</h5>
+                    <h4 class="card-title">Corrector Fenty</h4>
                     <a href="#" class="btn btn-primary button">Comprar</a>
                 </div>
             </div>
 
 
             <div class="card One">
-                <img src="assets/base.jpg" class=" oneImg card-img-top" alt="Mascara Fenty">
+                <img src="assets/base.jpg" class=" oneImg card-img-top" alt="Base Fenty">
                 <div class="card-body">
-                    <h5 class="card-title">Base Fenty</h5>
+                    <h4 class="card-title">Base Fenty</h4>
                     <a href="#" class="btn btn-primary button">Comprar</a>
                 </div>
             </div>
@@ -73,7 +76,7 @@
             <div class="card One">
                 <img src="assets/mascara.jpg" class=" oneImg card-img-top" alt="Mascara Fenty">
                 <div class="card-body">
-                    <h5 class="card-title">Mascara Fenty</h5>
+                    <h4 class="card-title">Mascara Fenty</h4>
                     <a href="#" class="btn btn-primary button">Comprar</a>
                 </div>
             </div>
@@ -85,15 +88,22 @@
         <div class="footer">
             <p>Nao Company 2024</p>
             <div>
-            <a target="_blank" href="https://es-la.facebook.com/"><img src="./assets/facebook.png" alt="Logo facebook"></a>
-            <a target="_blank" href="https://www.instagram.com/"><img src="./assets/logos_tiktok-icon.png" alt="Logo instagram"></a> 
-            <a target="_blank" href="https://www.tiktok.com/explore"><img src="./assets/uil_instagram-alt.png" alt="Logo tiktok"></a> 
+                <a target="_blank" href="https://es-la.facebook.com/"><img src="./assets/facebook.png"
+                        alt="Logo facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="./assets/uil_instagram-alt.png"
+                        alt="Logo instagram"></a>
+                <a target="_blank" href="https://www.tiktok.com/explore"><img src="./assets/logos_tiktok-icon.png"
+                        alt="Logo tiktok"></a>
             </div>
         </div>
-    </footer> 
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
