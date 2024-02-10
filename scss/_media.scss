@@ -6,6 +6,11 @@
 
     nav {
         width: 200px;
+
+    }
+
+    li {
+    font-size: 25px;
     }
 }
 
@@ -72,6 +77,7 @@
         flex-direction: row;
         justify-content: center;
     }
+
 }
 
 @media (min-width: 1020px) {
@@ -86,5 +92,24 @@
 @media (min-width: 1020px) {
     .contenedorNosotros p {
         font-size: 25px;
+    }
+
+    .maps{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        align-items: center;
+        margin: 20px 4px;
+        gap: 30px;
+    }
+    .maps1{
+        height: max-content;
+        width: 50%;
+        
+    }
+    
+    .maps2{
+        height: max-content;
+        width: 50%;
     }
 }

@@ -5,7 +5,8 @@
     gap: 10px;
     margin-left: 50px;
 }
-@include cards{
+
+@mixin cards{
     display: flex;
     flex-direction: column;
     width: 300px;
